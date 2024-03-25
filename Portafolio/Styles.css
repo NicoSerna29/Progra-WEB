@@ -1,5 +1,168 @@
 body {
-    font-family: Arial;
-    background-color: rgb(219, 217, 188);
-    color: rgb(139, 172, 125);
+    font-family: "Segoe UI";
+    background-color: rgb(10, 17, 108);
+    text-shadow: 2px 2px 1px rgba(138, 138, 138, 0.5);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+.column1 {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow: auto;
+    padding: 20px;
+    background-image: linear-gradient(to top, rgb(3, 16, 197) 50px, rgb(10, 17, 108) 50%);
+
+}
+
+.column2 {
+    background-image: linear-gradient(to bottom, rgb(3, 16, 197) 50px, rgb(10, 17, 108) 50%);
+    width: 50%;
+    margin-left: 52%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.row1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.row1 h1 {
+    font-size: 55px;
+    color: rgb(235, 235, 235);
+}
+
+.row1 h2 {
+    color: rgb(216, 216, 216);
+    top: 80px;
+}
+
+.row1 ul {
+    position: absolute;
+    top: 310px;
+    left: 250px;
+    text-align: left;
+    list-style-type: none;
+    color: rgb(187, 187, 187);
+    font-size: 30px;
+    text-shadow: 1px 2px 1px rgba(138, 138, 138, 0.5);
+}
+
+.row1 ul li {
+    margin-bottom: 30px;
+}
+
+.row2 {
+    text-align: center;
+    margin-top: 6.8%;
+}
+
+.row2 p {
+    margin-left: 55px;
+    font-size: 22px;
+    color: rgb(222, 222, 222);
+    text-shadow: 2px 1px 1px rgba(138, 138, 138, 0.5);
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#aboutme {
+    color: white;
+    margin-top: 480px;
+    margin-left: 15%;
+    width: 80%;
+    height: 550px;
+}
+
+#aboutme h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: -30px;
+    margin-left: -15%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+
+#aboutme p {
+    overflow: auto;
+    margin-left: 5px;
+    width: 80%;
+    height: 420px;
+    padding: 10px;
+    background-image: linear-gradient(to top, rgb(3, 16, 197) 50px, rgb(10, 17, 108) 50%);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(10, 17, 108, 0);
+    /* Color de fondo de la pista de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(10, 17, 108, 0);
+    /* Color del pulgar de la barra de desplazamiento */
+}
+
+hr {
+
+    border: none;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    margin-left: -10%;
+    width: 1000px;
+}
+
+#habilities {
+    color: white;
+    margin-top: 62%;
+    margin-left: 8.5%;
+    width: 80%;
+    height: 550px;
+}
+
+#proyects {
+    color: white;
+    margin-top: 300%;
+    margin-left: 1%;
+}
+#habilities h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+#proyects h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.contacto{
+    margin-top: 50%;
+    text-align: left;
+    margin-left: 1%;
+    color: white;
+    width: 98%;
+    background-image: linear-gradient(to top, rgb(2, 6, 68) 50px, rgb(10, 17, 108) 50%);
 }
